@@ -1,0 +1,152 @@
+body {
+    font-family: sans-serif;
+}
+header{
+    background-image: linear-gradient(#de6db8,#8a38ab);
+    margin-bottom: 20px;
+}
+
+#logo{
+    margin: 10px;
+}
+
+header a{
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    color: #8a38ab;
+    margin-left: 10px;
+}
+h1{
+    background-color: pink;
+    text-align: center;
+    color: purple;
+}
+footer{
+    background-image: linear-gradient(#de6db8,#8a38ab);
+    padding: 5px;
+}
+footer p{
+    background-color: white;
+}
+nav{
+    text-align: center;
+    margin: 10px;
+}
+nav a{
+    background-color: #8a38ab;
+    color: white;
+    border:1px solid #330c5c;
+    border-radius: 10px;
+    padding: 5px;
+}
+.prob{
+    background-color: darkblue;
+    color: white;
+}
+nav a:hover{
+     text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 10px;
+}
+a:hover {
+    box-shadow: 3px 5px 3px 0 purple;
+    text-decoration: none;
+}
+   
+#delivery{
+    background-color:pink;
+    color:purple;
+}
+    
+
+about_us{
+    background-color: blue;
+    color: yellow;
+}l
+#wholesale{
+    background-color: blue;
+    color: yellow;
+}
+.tovar{
+    display: flex;
+    justify-content: center;
+
+}
+.tov{
+    float: left;
+    transition: 1s ease-in;
+    font-size: 20px;
+    padding: 10px;
+    width: 150px;
+    margin: 20px 0px 20px 40px;
+    border: 1px double pink;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.zsy{
+    position: absolute;
+    left: 28%;
+    top: 45px;
+}
+.i_img{
+    display: flex;
+    justify-content: center;
+}
+
+.tov:hover{
+    
+    width: 150px;
+    height: 200px;
+    margin-right: 10px;
+
+
+    box-shadow: 0 5px 5px 5px #8a38ab;
+    background-color: pink;
+    color: white;
+    font-size:25px; 
+    transition: 1s ease-in;
+
+}
+
+a:hover::before {
+    content: counter();
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    opacity: 1;
+}
+nav {
+    text-align: center;
+    margin: 10px;
+}
+h2{
+    border-bottom: 2px solid pink;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+}
+.par{
+    position: relative;
+    top: 160px;
+    left: 30px;
+}
+.im{
+    display: flex;
+    position: relative;
+    left:40%
+}
+.im:hover{
+    border: 1px colid pink;
+    border-radius: 60%;
+    box-shadow: 5px 5px 5px 0 purple;
+}
+
+
