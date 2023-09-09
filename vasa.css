@@ -62,7 +62,7 @@ h2 {
 }
 
 .product::before {
-    content: url("https://abrakadabra.fun/uploads/posts/2022-01/1642425201_2-abrakadabra-fun-p-koshachya-lapka-risunok-sled-3.jpg");
+    content: url("https://cdn-icons-png.flaticon.com/512/672/672675.png");
     width: 30px;
     height: 30px;
     display: block;
