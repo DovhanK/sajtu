@@ -1,0 +1,144 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right,gold,lightgreen);
+}
+header {
+    background-color: lightblue;
+    padding: 30px;
+}
+
+header a {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
+}
+
+header a:hover{
+    background-image: linear-gradient(to right, lightblue,lightgreen);
+    color: navy;
+    
+}
+
+header img {
+    width: 200px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+header img:hover{
+    transform:scale(1.2) translateX(10px);
+    transition: 2s linear;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+    border-bottom: 2px solid navy;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+h2 {
+    color: blueviolet;
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    margin-left: 20%;
+}
+
+article {
+    font-size: 20px;
+    padding: 20px;
+    width: 800px;
+    margin: 20px;
+    border: 1px solid navy;
+    border-radius: 15px;
+    text-align: center;
+}
+
+article img {
+    height: 250px;
+    width: 200px;
+}
+
+article:hover {
+    box-shadow: 0 5px 5px 5px navy;
+}
+
+.page {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 230px;
+    border-radius: 10px;
+}
+
+.nb_news {
+    background-color: navy;
+    color: white;
+}
+
+
+
+.knopka{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    border: 2px dashed navy;
+}
+
+
+footer{
+    position: relative;
+    width: 100%;
+    top: 270px;
+    height: 425px;
+    left: 0px;
+    background: lightblue;
+}
+.footer-info{
+    position: absolute;
+    width: 30%;
+    left: 90px;
+    top: 10%;
+}
+h4{
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 26px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.footer-info p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+
+    color: #575757;
+}
+.footer-img{
+    width: 70px;
+    height: 70px;
+    margin-right: 3%;
+}
+.logo-img{
+    position: absolute;
+    left: 70%;
+    top:15%;
+    width: 15%;
+}
