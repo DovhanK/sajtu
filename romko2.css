@@ -95,8 +95,8 @@ nav a:hover{
 }
 .article-but1 {
     position: relative;
-    left: 50%;
-    bottom: -40px;
+    left: 40%;
+    bottom: -60px;
     text-decoration: none;
     background-color: white;
     color: red;
