@@ -4,6 +4,7 @@ img{
 
 }
 .pict{
+    background-color: lightblue;
     padding: 100px;
     display: flex;
     border: 3px solid;
@@ -11,51 +12,55 @@ img{
 }
 h1{
     text-align:center;
+    color: black;
 }
 .p{
-    display: flex;   
+    display: flex;
 }
 
 
 .e{
     display: flex;
-    justify-content: flex-start;
+    margin: center;
     width: 1200px; 
     height: 300px;
-    background-color: firebrick;
+    background-color: red;
 }
 
 .product {
     width: 150px;
     text-align: center;
     padding: 10px;
-    border: 5px double orange;
+    border: 5px double black;
     margin: 40px 0px 40px 80px;
-    background-color: orangered;
+    background-color: white;
 }
 .UWU, .UWU1, .UWU2{
+    color: black;
     width: 150px;
     text-align: center;
     padding: 10px;
-    border: 5px double olive;
+    border: 5px double black;
     margin: 40px 0px 40px 80px;
-    background-color: orangered;
+    background-color: white;
 }
 .UWU3 {
+    color: lightgreen;
     width: 300px;
     text-align: center;
     padding: 10px;
-    border: 5px double orange;
+    border: 5px double black;
     margin: 40px 0px 40px 80px;
-    background-color: orangered;
+    background-color: white;
 }
 .UWU4, .UWU5 {
+    color: black;
     width: 500px;
     text-align: center;
     padding: 10px;
-    border: 5px double orange;
+    border: 5px double black;
     margin: 40px 0px 40px 80px;
-    background-color: orangered;
+    background-color: white;
 }
 
 nav a{
@@ -102,7 +107,7 @@ background-color: khaki;
 .call p{
     font-size: 20px;
     text-align: center;
-    color: #00000095;
+    color: black;
     background: transparent;
     position: fixed;
     bottom: 30px;
@@ -120,10 +125,10 @@ background-color: khaki;
     margin: 100px;
     transform: scale(30);
     transition: 20s linear;
-    }
-
+}
 
 .a1{
+    background-color: sandybrown;
     border-top-width: thick;
     border-top-style: solid;
     border-top-color: red;
@@ -141,6 +146,7 @@ background-color: khaki;
     border-left-color: orange;
 }
 .a2 {
+    background-color: red;
     border-top-width: thick;
     border-top-style: solid;
     border-top-color: pink;
@@ -172,10 +178,21 @@ background-color: khaki;
     transform: scale(100);
     transition: 20s linear;
     }    
+.yu:hover{
+ position: absolute;
+    transform: translateY(100px)translateX(200px);
+    transition: 3s ease-in;
+    }
+.yu1:hover{
+   position: absolute;
+    transform: translateY(100px)translateX(200px);
+    transition: 3s ease-in;
+    }
 
-    
-    
-    
+footer{
+    background-image: linear-gradient(black, yellow, orange) ;
+}
+
 
 
 
