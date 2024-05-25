@@ -16,7 +16,6 @@ header{
     display: flex;
     justify-content: space-around;
     background-color: rgb(135, 158, 100) ;
-    
 }
 
 
@@ -236,4 +235,54 @@ h4{
     left: 70%;
     top:15%;
     width: 10%;
+}
+
+
+.a4{
+    color: gray;
+    font-size: 70px;
+}
+
+.principles {
+    display: flex;
+    border-top: 5px solid rgb(80, 99, 51);
+    border-bottom: 5px solid rgb(80, 99, 51);
+    justify-content: space-between; 
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.principle {
+    width: 200px;
+    border: 1px solid rgb(80, 99, 51);
+    background-color: white;
+}
+
+.qua-item{
+    border: 1px solid rgb(80, 99, 51);
+    background-color: white;
+}
+
+.question-answer {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.question {
+    color: brown;
+}
+
+.qua-item::before {
+    content: url("/uploads/2021/03/question_0_1614951460.svg");
+    width: 10px;
+    height: 20px;
+    display: inline-block;
+}
+h2{
+    color: rgb(80, 99, 51);
+    font-size: 50px;
+    margin-left: 80px;
 }
